@@ -25,13 +25,13 @@
   }
 
   .texto {
-    color: white; 
+    color: rgb(26, 113, 189); 
     text-align: center; 
     margin: 70px 0;
     font-size: 25px; 
   }
 
-  tr:hover {background-color: #FF5733;}
+  tr:hover {background-color: #4e14c2;}
 
   @keyframes fondoanimado{
     0%{
