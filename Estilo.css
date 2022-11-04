@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif; 
+  }
+  
+  /* Remove the jumbotron's default bottom margin */ 
+ 
+  /* Add a gray background color and some padding to the footer */
+  .head{
+    text-align: center;
+    color: white; 
+    font-size: 20px; 
+  }
+
+  body {
+    background-image: linear-gradient(135deg, #E894A7, #C06378, #8B4E5E, 
+    #663845, #321E25);
+    background-size: 800%;
+    animation: fondoanimado 10s infinite;  
+  }
+
+  img {
+    width: 25%;
+  }
+
+  .texto {
+    color: white; 
+    text-align: center; 
+    margin: 70px 0;
+    font-size: 25px; 
+  }
+
+  tr:hover {background-color: #FF5733;}
+
+  @keyframes fondoanimado{
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+
+  
